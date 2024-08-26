@@ -1,4 +1,4 @@
-import Voiture from "../classe/voiture.js";
+import Voiture from "./classe/voiture.js";
 
 const voiture1 = new Voiture("Bmw", "Serie 1", 80);
 const voiture2 = new Voiture("Mercedes", "GLB", 100);
