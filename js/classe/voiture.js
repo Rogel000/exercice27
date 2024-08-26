@@ -12,4 +12,8 @@ export default class Voiture {
   tourner() {
     this.vitesse -= 5;
   }
+
+  toString() {
+    return `Voiture : ${this.marque}, ${this.modele} roule à ${this.vitesse} km/h`;
+  }
 }
